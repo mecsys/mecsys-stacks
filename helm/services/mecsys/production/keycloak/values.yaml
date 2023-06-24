@@ -708,7 +708,7 @@ pdb:
   minAvailable: 1
   ## @param pdb.maxUnavailable Maximum number/percentage of pods that may be made unavailable
   ##
-  maxUnavailable: 1
+  maxUnavailable: ""
 ## Keycloak Autoscaling configuration
 ## @param autoscaling.enabled Enable autoscaling for Keycloak
 ## @param autoscaling.minReplicas Minimum number of Keycloak replicas
