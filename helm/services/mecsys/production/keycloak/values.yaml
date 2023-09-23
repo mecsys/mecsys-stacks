@@ -236,7 +236,7 @@ args: []
 ##
 extraEnvVars:
   - name: JAVA_OPTS_APPEND
-    value: "-Dkeycloak.profile.feature.scripts=enabled  -Dkeycloak.profile.feature.upload_scripts=enabled"
+    value: "-Djgroups.dns.query=keycloak-headless.keycloak.svc.cluster.local -Dkeycloak.profile.feature.scripts=enabled  -Dkeycloak.profile.feature.upload_scripts=enabled"
 ## @param extraEnvVarsCM Name of existing ConfigMap containing extra env vars
 ##
 extraEnvVarsCM: ""
